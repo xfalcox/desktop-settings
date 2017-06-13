@@ -1,0 +1,3 @@
+# /etc/profile.d/
+place profile modules here
+
