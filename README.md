@@ -29,3 +29,21 @@ Please maintainers, read up first on
 
 * gnome
 * mate
+
+
+#### Template
+
+A settings package has following structure:
+
+* skel
+    * references /etc/skel
+* schemas (optional)
+    * references /usr/share/glib-2.0/schemas
+* scripts (optional)
+    * references /usr/bin
+* bashrc.d (optional)
+    * references /etc/bash/bashrc.d
+* profile.d (optional)
+    * references /etc/profile.d
+* xinitrc.d (optional)
+    * references /etc/X11/xinit/xinitrc.d
